@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82BCF871DACB8FE0031C68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF861DACB8FE0031C68A /* AppDelegate.swift */; };
+		A82BCF891DACB8FE0031C68A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF881DACB8FE0031C68A /* ViewController.swift */; };
+		A82BCF8C1DACB8FE0031C68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8A1DACB8FE0031C68A /* Main.storyboard */; };
+		A82BCF8E1DACB8FE0031C68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */; };
+		A82BCF911DACB8FE0031C68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */; };
+		A82BCF9C1DACB8FF0031C68A /* OctoswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF9B1DACB8FF0031C68A /* OctoswiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A82BCF981DACB8FF0031C68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82BCF7B1DACB8FE0031C68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82BCF821DACB8FE0031C68A;
+			remoteInfo = Octoswift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A82BCF831DACB8FE0031C68A /* Octoswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octoswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82BCF861DACB8FE0031C68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A82BCF881DACB8FE0031C68A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A82BCF8B1DACB8FE0031C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82BCF901DACB8FE0031C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82BCF921DACB8FE0031C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82BCF971DACB8FF0031C68A /* OctoswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82BCF9B1DACB8FF0031C68A /* OctoswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoswiftTests.swift; sourceTree = "<group>"; };
+		A82BCF9D1DACB8FF0031C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82BCF801DACB8FE0031C68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82BCF941DACB8FF0031C68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82BCF7A1DACB8FE0031C68A = {
+			isa = PBXGroup;
+			children = (
+				A82BCF851DACB8FE0031C68A /* Octoswift */,
+				A82BCF9A1DACB8FF0031C68A /* OctoswiftTests */,
+				A82BCF841DACB8FE0031C68A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82BCF841DACB8FE0031C68A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82BCF831DACB8FE0031C68A /* Octoswift.app */,
+				A82BCF971DACB8FF0031C68A /* OctoswiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82BCF851DACB8FE0031C68A /* Octoswift */ = {
+			isa = PBXGroup;
+			children = (
+				A82BCF861DACB8FE0031C68A /* AppDelegate.swift */,
+				A82BCF881DACB8FE0031C68A /* ViewController.swift */,
+				A82BCF8A1DACB8FE0031C68A /* Main.storyboard */,
+				A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */,
+				A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */,
+				A82BCF921DACB8FE0031C68A /* Info.plist */,
+			);
+			path = Octoswift;
+			sourceTree = "<group>";
+		};
+		A82BCF9A1DACB8FF0031C68A /* OctoswiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A82BCF9B1DACB8FF0031C68A /* OctoswiftTests.swift */,
+				A82BCF9D1DACB8FF0031C68A /* Info.plist */,
+			);
+			path = OctoswiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82BCF821DACB8FE0031C68A /* Octoswift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82BCFA01DACB8FF0031C68A /* Build configuration list for PBXNativeTarget "Octoswift" */;
+			buildPhases = (
+				A82BCF7F1DACB8FE0031C68A /* Sources */,
+				A82BCF801DACB8FE0031C68A /* Frameworks */,
+				A82BCF811DACB8FE0031C68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octoswift;
+			productName = Octoswift;
+			productReference = A82BCF831DACB8FE0031C68A /* Octoswift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A82BCF961DACB8FF0031C68A /* OctoswiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82BCFA31DACB8FF0031C68A /* Build configuration list for PBXNativeTarget "OctoswiftTests" */;
+			buildPhases = (
+				A82BCF931DACB8FF0031C68A /* Sources */,
+				A82BCF941DACB8FF0031C68A /* Frameworks */,
+				A82BCF951DACB8FF0031C68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82BCF991DACB8FF0031C68A /* PBXTargetDependency */,
+			);
+			name = OctoswiftTests;
+			productName = OctoswiftTests;
+			productReference = A82BCF971DACB8FF0031C68A /* OctoswiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82BCF7B1DACB8FE0031C68A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ZigiiWong;
+				TargetAttributes = {
+					A82BCF821DACB8FE0031C68A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A82BCF961DACB8FF0031C68A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A82BCF821DACB8FE0031C68A;
+					};
+				};
+			};
+			buildConfigurationList = A82BCF7E1DACB8FE0031C68A /* Build configuration list for PBXProject "Octoswift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82BCF7A1DACB8FE0031C68A;
+			productRefGroup = A82BCF841DACB8FE0031C68A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82BCF821DACB8FE0031C68A /* Octoswift */,
+				A82BCF961DACB8FF0031C68A /* OctoswiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82BCF811DACB8FE0031C68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82BCF911DACB8FE0031C68A /* LaunchScreen.storyboard in Resources */,
+				A82BCF8E1DACB8FE0031C68A /* Assets.xcassets in Resources */,
+				A82BCF8C1DACB8FE0031C68A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82BCF951DACB8FF0031C68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82BCF7F1DACB8FE0031C68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82BCF891DACB8FE0031C68A /* ViewController.swift in Sources */,
+				A82BCF871DACB8FE0031C68A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82BCF931DACB8FF0031C68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82BCF9C1DACB8FF0031C68A /* OctoswiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A82BCF991DACB8FF0031C68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82BCF821DACB8FE0031C68A /* Octoswift */;
+			targetProxy = A82BCF981DACB8FF0031C68A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A82BCF8A1DACB8FE0031C68A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82BCF8B1DACB8FE0031C68A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82BCF901DACB8FE0031C68A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82BCF9E1DACB8FF0031C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A82BCF9F1DACB8FF0031C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82BCFA11DACB8FF0031C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Octoswift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZigiiWong.Octoswift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A82BCFA21DACB8FF0031C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Octoswift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZigiiWong.Octoswift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A82BCFA41DACB8FF0031C68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OctoswiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZigiiWong.OctoswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octoswift.app/Octoswift";
+			};
+			name = Debug;
+		};
+		A82BCFA51DACB8FF0031C68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OctoswiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZigiiWong.OctoswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octoswift.app/Octoswift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82BCF7E1DACB8FE0031C68A /* Build configuration list for PBXProject "Octoswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82BCF9E1DACB8FF0031C68A /* Debug */,
+				A82BCF9F1DACB8FF0031C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82BCFA01DACB8FF0031C68A /* Build configuration list for PBXNativeTarget "Octoswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82BCFA11DACB8FF0031C68A /* Debug */,
+				A82BCFA21DACB8FF0031C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A82BCFA31DACB8FF0031C68A /* Build configuration list for PBXNativeTarget "OctoswiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82BCFA41DACB8FF0031C68A /* Debug */,
+				A82BCFA51DACB8FF0031C68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82BCF7B1DACB8FE0031C68A /* Project object */;
+}
