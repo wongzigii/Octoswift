@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A82BCF871DACB8FE0031C68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF861DACB8FE0031C68A /* AppDelegate.swift */; };
 		A82BCF891DACB8FE0031C68A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF881DACB8FE0031C68A /* ViewController.swift */; };
-		A82BCF8C1DACB8FE0031C68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8A1DACB8FE0031C68A /* Main.storyboard */; };
 		A82BCF8E1DACB8FE0031C68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */; };
 		A82BCF911DACB8FE0031C68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */; };
 		A82BCF9C1DACB8FF0031C68A /* OctoswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF9B1DACB8FF0031C68A /* OctoswiftTests.swift */; };
@@ -29,7 +28,6 @@
 		A82BCF831DACB8FE0031C68A /* Octoswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octoswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82BCF861DACB8FE0031C68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82BCF881DACB8FE0031C68A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A82BCF8B1DACB8FE0031C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A82BCF901DACB8FE0031C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A82BCF921DACB8FE0031C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			children = (
 				A82BCF861DACB8FE0031C68A /* AppDelegate.swift */,
 				A82BCF881DACB8FE0031C68A /* ViewController.swift */,
-				A82BCF8A1DACB8FE0031C68A /* Main.storyboard */,
 				A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */,
 				A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */,
 				A82BCF921DACB8FE0031C68A /* Info.plist */,
@@ -181,7 +178,6 @@
 			files = (
 				A82BCF911DACB8FE0031C68A /* LaunchScreen.storyboard in Resources */,
 				A82BCF8E1DACB8FE0031C68A /* Assets.xcassets in Resources */,
-				A82BCF8C1DACB8FE0031C68A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +219,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A82BCF8A1DACB8FE0031C68A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A82BCF8B1DACB8FE0031C68A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -404,6 +392,7 @@
 				A82BCFA21DACB8FF0031C68A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82BCFA31DACB8FF0031C68A /* Build configuration list for PBXNativeTarget "OctoswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +401,7 @@
 				A82BCFA51DACB8FF0031C68A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
