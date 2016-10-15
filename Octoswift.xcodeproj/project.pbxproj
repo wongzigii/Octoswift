@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49E7D7A67B3F69F38CA0C481 /* Pods_Octoswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6E0346EA476D62B279CACB /* Pods_Octoswift.framework */; };
 		A82BCF871DACB8FE0031C68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BCF861DACB8FE0031C68A /* AppDelegate.swift */; };
 		A82BCF8E1DACB8FE0031C68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */; };
 		A82BCF911DACB8FE0031C68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BCF8F1DACB8FE0031C68A /* LaunchScreen.storyboard */; };
@@ -14,8 +15,6 @@
 		A8520D571DAE8C54008BEB4D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8520D561DAE8C54008BEB4D /* BaseViewModel.swift */; };
 		A8520D5F1DAF2CB5008BEB4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8520D5D1DAF2CB5008BEB4D /* LoginViewController.swift */; };
 		A8520D621DAF2CF8008BEB4D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8520D611DAF2CF8008BEB4D /* LoginViewModel.swift */; };
-		A8520D811DB076E2008BEB4D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8520D701DAF8FEE008BEB4D /* Result.framework */; };
-		A8520D831DB076E3008BEB4D /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8520D821DB076E3008BEB4D /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B6E0346EA476D62B279CACB /* Pods_Octoswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Octoswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82BCF831DACB8FE0031C68A /* Octoswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octoswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82BCF861DACB8FE0031C68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82BCF8D1DACB8FE0031C68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,9 +53,8 @@
 		A8520D561DAE8C54008BEB4D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = Base/BaseViewModel.swift; sourceTree = "<group>"; };
 		A8520D5D1DAF2CB5008BEB4D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = View/LoginViewController.swift; sourceTree = "<group>"; };
 		A8520D611DAF2CF8008BEB4D /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ViewModel/LoginViewModel.swift; sourceTree = "<group>"; };
-		A8520D701DAF8FEE008BEB4D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		A8520D711DAF8FEE008BEB4D /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
-		A8520D821DB076E3008BEB4D /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		E78FBDC40F3668FAAB32E56D /* Pods-Octoswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Octoswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Octoswift/Pods-Octoswift.debug.xcconfig"; sourceTree = "<group>"; };
+		EA52B2D05EAAC389EAB2C864 /* Pods-Octoswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Octoswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Octoswift/Pods-Octoswift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8520D831DB076E3008BEB4D /* ReactiveCocoa.framework in Frameworks */,
-				A8520D811DB076E2008BEB4D /* Result.framework in Frameworks */,
+				49E7D7A67B3F69F38CA0C481 /* Pods_Octoswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B7737C91F2E371B2CA1BBCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E78FBDC40F3668FAAB32E56D /* Pods-Octoswift.debug.xcconfig */,
+				EA52B2D05EAAC389EAB2C864 /* Pods-Octoswift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A82BCF7A1DACB8FE0031C68A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +92,7 @@
 				A82BCF9A1DACB8FF0031C68A /* OctoswiftTests */,
 				A82BCF841DACB8FE0031C68A /* Products */,
 				A8520D6F1DAF8FED008BEB4D /* Frameworks */,
+				8B7737C91F2E371B2CA1BBCB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,9 +171,7 @@
 		A8520D6F1DAF8FED008BEB4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8520D821DB076E3008BEB4D /* ReactiveCocoa.framework */,
-				A8520D701DAF8FEE008BEB4D /* Result.framework */,
-				A8520D711DAF8FEE008BEB4D /* ReactiveSwift.framework */,
+				3B6E0346EA476D62B279CACB /* Pods_Octoswift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,10 +183,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A82BCFA01DACB8FF0031C68A /* Build configuration list for PBXNativeTarget "Octoswift" */;
 			buildPhases = (
+				A5A081E1D1002F5D2A18D4F9 /* [CP] Check Pods Manifest.lock */,
 				A82BCF7F1DACB8FE0031C68A /* Sources */,
 				A82BCF801DACB8FE0031C68A /* Frameworks */,
 				A82BCF811DACB8FE0031C68A /* Resources */,
 				A8520D6E1DAF8FA9008BEB4D /* Embed Frameworks */,
+				FE9FE5AC49CFC7F3785CB776 /* [CP] Embed Pods Frameworks */,
+				8405E4CAD1794975FEBB198F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +230,7 @@
 				TargetAttributes = {
 					A82BCF821DACB8FE0031C68A = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					A82BCF961DACB8FF0031C68A = {
@@ -267,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8405E4CAD1794975FEBB198F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Octoswift/Pods-Octoswift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A081E1D1002F5D2A18D4F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9FE5AC49CFC7F3785CB776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Octoswift/Pods-Octoswift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A82BCF7F1DACB8FE0031C68A /* Sources */ = {
@@ -403,8 +461,10 @@
 		};
 		A82BCFA11DACB8FF0031C68A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78FBDC40F3668FAAB32E56D /* Pods-Octoswift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -413,14 +473,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZigiiWong.Octoswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_OBJC_BRIDGING_HEADER = "Octoswift/Octoswift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A82BCFA21DACB8FF0031C68A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA52B2D05EAAC389EAB2C864 /* Pods-Octoswift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -429,7 +493,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZigiiWong.Octoswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_OBJC_BRIDGING_HEADER = "Octoswift/Octoswift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
